@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Webpage</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Caveat'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Navbar -->
+<ul class="side-nav" id="mobile-nav">
+  <li><a href="#about-wrapper" class="nav-btn">About</a></li>
+  <li><a href="#portfolio-wrapper" class="nav-btn">Portfolio</a></li>
+  <li><a href="#contact-wrapper" class="nav-btn">Contact</a></li>
+</ul>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#about-wrapper" class="brand-logo nav_btn center">Nicky García ʕ￫ᴥ￩ʔ</a>
+      <a href="#" data-activates="mobile-nav" class="button-collapse hide-on-med-and-up">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-small-only">
+        <li><a href="#about-wrapper" class="nav-btn">About</a></li>
+        <li><a href="#portfolio-wrapper" class="nav-btn">Portfolio</a></li>
+        <li><a href="#contact-wrapper" class="nav-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- <div class="container"> -->
+<!-- Body wrapper -->
+
+<div id="about-wrapper" class="container green darken-1 bordered-container">
+  <div class="col s12 m7" id="about-card">
+    <h1 class="header content-header" id="about-header"> <b>About</b> </h1>
+    <div class="card horizontal green lighten-2">
+      <div class="card-image">
+        <img src="https://avatars6.githubusercontent.com/u/17543065?v=4&s=460" id="profile_pic" alt="Nicky's picture">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="about-card-content" id="about-content">
+            Hi! My name is <b>Nicky García</b>. I'm a Mechanical Engineering student from the National Autonomous University of Mexico (UNAM) with a Computer Scientist spirit within. I like Maths, having messy hair and I am very interested in Artificial
+            Intelligence.<br><br> I aspire to one day become a full fledged Full Stack developer, specializing in DevOps and Backend development on the side while dedicating myself to R&D in either Computer Graphics or Artificial Intelligence. <br><br>            I enjoy studying Maths and Computer Science related subjects on my own, listening to my favorite music, playing videogames, and developing software to make my life easier. I also write for myself in my spare time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="portfolio-wrapper" class="container green darken-1 bordered-container">
+  <h1 id="portfolio_header header" class="content-header"><b>Things I've worked on</b></h1>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://goo.gl/3qPGNZ" alt="Software screenshot">
+        <div class="caption left-align neon-effect-green">
+          <h3>Traveling Salesman Problem</h3>
+          <h5 class="light grey-text text-lighten-3 neon-effect-green">Solves any given graph using diverse graph search algorithms. (A*, Dijsktra, DFS, BFS)</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://goo.gl/17eNkB" alt="Software screenshot">
+        <div class="caption right-align">
+          <h3 class="light grey-text text-darken-3 neon-effect-green">Probability Distribution Calculator</h3>
+          <br><br>
+          <h5 class="light grey-text text-darken-3 neon-effect-green">Project made for probability class</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://goo.gl/BdafsB" alt="Software screenshot">
+        <div class="caption center-align">
+          <h3 class="light grey-text text-darken-3 neon-effect-green">Tribute Page</h3>
+          <h5 class="light grey-text text-darken-3 neon-effect-green">CodeCamp basic front-end project</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--</div>-->
+
+<footer class="page-footer" id="span-col">
+  <div id="contact-wrapper">
+    <div class="row">
+
+      <div class="col s6 m6 l6 xl6">
+        <h1 class="header content-header">
+          <i class="fa fa-id-card-o" aria-hidden="true" id="contact_icon"></i>Contact
+        </h1>
+
+      </div>
+      <form class="col s12 m12 l12 xl12" action="mailto:nick.garc.96@gmail.com" method="post">
+        <div class="row">
+          <div class="input-field col s6 m6 l6 xl6">
+            <input id="first_name" type="text" class="validate white-text">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6 m6 l6 xl6">
+            <input id="last_name" type="text" class="validate white-text">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m12 l12 xl12">
+            <input id="email" type="email" class="validate autocomplete white-text" placeholder="Hint: Try typing the @ symbol first for autocompletion.">
+            <label for="email" data-error="Please input a valid e-mail">E-mail</label>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="input-field col s12 m12 l12 xl12">
+            <i class="material-icons prefix">smstext</i>
+            <textarea id="comments" class="materialize-textarea white-text validate" data-length="120" placeholder="'Porfavor' no spam to my email :)"></textarea>
+            <label for="comments">Comments</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6 m6 l6 xl6 center">
+            <button class="btn waves-effect waves-light" type="submit" name="action"> Submit
+            <i class="material-icons right">send</i>
+          </button>
+          </div>
+          <div class="col s6 m6 l6 xl6 center">
+            <button class="btn waves-effect waves-light" type="reset" name="action"> Reset
+            <i class="material-icons right">replay</i>
+          </button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <div class="footer-copyright" id="copyleft-area">
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m6 l6 xl6">
+          2017 <i class="fa fa-copyright fa-flip-horizontal"></i> Nicky García. Copyleft FTW!
+        </div>
+        <div class="col s6 m6 l6 x16">
+          <a href="https://github.com/kotoromo">
+            <i class="fa fa-github small right" aria-hidden="true"></i>
+
+          </a>
+          <a href="https://www.linkedin.com/in/nicky-garc%C3%ADa-654808134/">
+            <i class="fa fa-linkedin-square small right" aria-hidden="true"></i>
+
+          </a>
+          <a href="https://www.steamcommunity.com/id/kotoromo">
+            <i class="fa fa-steam small right" aria-hidden="true"></i>
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src='http://code.jquery.com/jquery-2.1.2.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js'></script>
+<script src='https://use.fontawesome.com/020136b95b.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

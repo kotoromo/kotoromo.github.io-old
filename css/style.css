@@ -1,0 +1,91 @@
+body{
+  background-color:#7cb342;
+}
+
+.nav-wrapper{
+  background-color:#2e7d32;
+}
+
+.brand-logo:link {
+    text-decoration: none;
+}
+
+.brand-logo:visited {
+    text-decoration: none;
+}
+
+.brand-logo:hover {
+    text-decoration: none;
+}
+
+.brand-logo:active {
+    text-decoration: none;
+}
+
+.nav-btn:link {
+    text-decoration: none;
+}
+
+.nav-btn:visited {
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-btn:active {
+    text-decoration: none;
+}
+
+.content-header{
+  font-family: 'Caveat', cursive;
+  color: #e8f5e9;
+}
+
+.about-card-content{
+  font-family: 'Caveat', cursive;
+  font-size: 1.2em;
+}
+
+.bordered-container{
+  margin-top: 10px;
+  border-radius:25px;
+}
+
+#profile_pic{
+  border-radius: 360px;
+  padding:10px;
+}
+
+#about-content{
+  color: #e8f5e9;
+}
+
+.neon-effect-green{
+  text-shadow: 0 0 6px #64dd17;
+}
+
+.white-border-text{
+  color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#span-col{
+  background-color: #424242;
+  padding-top: 0px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.prefix{
+  padding-top:10px;
+}
+
+#copyleft-area{
+  background-color:#616161;
+}
+
+#contact_icon{
+  padding-right:0em;
+}
